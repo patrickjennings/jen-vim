@@ -30,7 +30,7 @@ let g:jedi#use_splits_not_buffers = "left"
 
 " pylint using python3
 let g:syntastic_python_python_exec = 'python3'
-let g:syntastic_python_pylint_args = "--load-plugins pylint_django"
+" let g:syntastic_python_pylint_args = "--load-plugins pylint_django"
 
 
 " syntastic settings
