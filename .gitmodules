@@ -1,29 +1,29 @@
 [submodule ".vim/bundle/ack.vim"]
-	path = .vim/bundle/ack.vim
+	path = .vim/pack/search/start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
 [submodule ".vim/bundle/ag.vim"]
-	path = .vim/bundle/ag.vim
+	path = .vim/pack/search/start/ag.vim
 	url = https://github.com/rking/ag.vim.git
 [submodule ".vim/bundle/command-t"]
-	path = .vim/bundle/command-t
+	path = .vim/pack/search/start/command-t
 	url = https://github.com/wincent/command-t.git
 [submodule ".vim/bundle/jedi-vim"]
-	path = .vim/bundle/jedi-vim
+	path = .vim/pack/development/start/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
 [submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
+	path = .vim/pack/development/start/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule ".vim/bundle/undotree"]
-	path = .vim/bundle/undotree
+	path = .vim/pack/utilities/start/undotree
 	url = https://github.com/mbbill/undotree.git
 [submodule ".vim/bundle/vim-airline"]
-	path = .vim/bundle/vim-airline
+	path = .vim/pack/themes/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule ".vim/bundle/vim-angular"]
-	path = .vim/bundle/vim-angular
+	path = .vim/pack/development/start/vim-angular
 	url = https://github.com/burnettk/vim-angular.git
 [submodule ".vim/bundle/coc.nvim"]
-	path = .vim/bundle/coc.nvim
+	path = .vim/pack/development/start/coc.nvim
 	branch = release
 	url = https://github.com/neoclide/coc.nvim.git
 [submodule ".vim/pack/themes/opt/solarized8"]

@@ -23,7 +23,7 @@ To create a compilation database, I recommend the `bear` utility.
 Installation of Command-t is semi-manual. A C-extension must be built in order to use properly:
 
 ```
-cd ~/.vim/bundle/command-t/ruby/command-t
+cd ~/.vim/pack/search/start/command-t/ruby/command-t
 ruby extconf.rb
 make
 ```
