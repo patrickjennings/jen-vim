@@ -25,10 +25,15 @@ vnoremap // y/<C-R>"<CR>
 " maps =j to pretty print json
 nmap =j :%!python -m json.tool<CR>
 
+" === Undotree ===
 if has("persistent_undo")
     set undodir=~/.undodir/
     set undofile
 endif
+
+nnoremap <F4> :UndotreeToggle<cr>
+" === Undotree ===
+
 
 " jedi.vim settings
 let g:jedi#use_splits_not_buffers = "left"
@@ -59,7 +64,7 @@ set laststatus=2
 set t_Co=256
 
 " spell check toggle to F5
-:map <F5> :setlocal spell! spelllang=en_us<CR>
+map <F5> :setlocal spell! spelllang=en_us<CR>
 
 
 " ==== coc.nvim ====
